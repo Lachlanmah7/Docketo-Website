@@ -148,8 +148,9 @@ tr:last-child td{border-bottom:none}
   .hero{padding:56px 0}
   .hero-grid,.grid-2,.grid-3,.grid-4,.stats,.foot{grid-template-columns:1fr}
   .section-head{display:block}
-  .links{gap:10px;justify-content:flex-end}
-  .links a:nth-child(2),.links a:nth-child(3){display:none}
+  .nav{min-height:auto;padding:12px 0;flex-wrap:wrap;gap:8px}
+  .links{width:100%;gap:5px 14px;justify-content:flex-start}
+  .links a{font-size:.86rem}
   .mobile-note{display:block;color:var(--muted);font-size:.82rem}
 }
 
