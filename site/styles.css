@@ -138,6 +138,12 @@ tr:last-child td{border-bottom:none}
 .timeline{border-left:3px solid var(--border);padding-left:24px}
 .timeline-item{position:relative;margin:0 0 28px}
 .timeline-item:before{content:"";position:absolute;left:-32px;top:5px;width:14px;height:14px;border-radius:50%;background:var(--primary)}
+.howto-steps{display:grid;gap:16px;max-width:960px}
+.howto-step{display:grid;grid-template-columns:58px minmax(0,1fr);gap:20px;padding:26px 28px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);box-shadow:var(--shadow-soft)}
+.howto-step h3{margin-top:4px}.howto-step p{color:var(--muted);margin:8px 0}
+.step-number{width:48px;height:48px;display:grid;place-items:center;border-radius:15px;background:#e8f2ff;color:var(--primary-dark);font-size:1.25rem;font-weight:900}
+.tap-path{display:inline-block;padding:7px 10px;border-radius:10px;background:#f1f6fd;color:#27476f!important;font-weight:760;font-size:.9rem}
+.step-result{border-left:3px solid var(--success);padding-left:12px;font-size:.94rem}
 @media(max-width:920px){
   .hero-grid,.grid-4{grid-template-columns:1fr 1fr}
   .grid-3{grid-template-columns:1fr 1fr}
@@ -152,6 +158,7 @@ tr:last-child td{border-bottom:none}
   .links{width:100%;gap:5px 14px;justify-content:flex-start}
   .links a{font-size:.86rem}
   .mobile-note{display:block;color:var(--muted);font-size:.82rem}
+  .howto-step{grid-template-columns:1fr;padding:22px}
 }
 
 
